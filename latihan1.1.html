@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>                                              
+<head>
+    <!-- Ini baris komentar, tidak diproses -->
+    <!-- title berisi judul dari dokumen -->                
+    <title>Ini judul dokumen</title>                           
+</head>
+<!-- body mendefinisikan tubuh atau isi dokumen.-->
+<body>                                              
+    Ini adalah teks di body
+    <!-- Berikut merupakan beberapa contoh format teks -->
+
+    <!-- Contoh heading -->
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6>
+
+    <!-- Posisi text Elemen heading dapat diatur menggunakan atribut align -->
+    <!-- Contoh penggunaan align -->
+    <h1 align="right">Heading 1</h1>            <!-- Heading diposiskan menggunakan align untuk posisi "right" atau kanan -->
+    <h2 align="left">Heading 2</h2>             <!-- Heading diposiskan menggunakan align untuk posisi "left" atau kiri -->
+    <h3 align="center">Heading 3</h3>           <!-- Heading diposiskan menggunakan align untuk posisi "center" atau tengah -->
+
+    <!-- Text yang menggunakan format paragraf direpresentasikan dengan tag <p>, baris baru akan dibentuk diantara paragraf -->
+
+    <p>
+    Ini paragraf pertama
+
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+    <p>
+    Ini paragraf ketiga
+
+    <!-- Sama seperti pada heading, kita dapat mengatur posisi paragraf dengan atribut align -->
+
+    <p align="center">                      <!-- Dengan align="center" posisi paragraf akan berada di "center" atau tengah -->
+    Ini paragraf rata tengah
+    
+    <p align="justify">                     <!-- Dengan align="justify" posisi paragraf akan di sejajarkan kanan dan kiri -->
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+    <p align="right">                       <!-- Dengan align="right" posisi paragraf akan berada di "right" atau kanan -->
+    Ini paragraf rata kanan
+
+    <!-- break berfungsi untuk membuat garis baru-->
+    <br/>
+    Membuat baris baru <br/>
+    Membuat baris baru <br/>
+
+    <p>
+    <!-- Contoh break di dalam paragraf -->
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, <br/>
+    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br/>
+    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br/>
+    <br/>
+
+    <!-- terdapat elemen untuk mengatur font atau fontase -->
+    <!-- tag <p> akaan otomatis terbaca sebagai paragraf, oleh karena itu kita menggunakan nama entitas untuk mencetaknya -->
+    <!-- karakter < dapat dicetak dengan entitas &lt; dan karakter > dicetak dengan entitas &gt; -->
+
+    <b>Menggunakan tag &lt;b&gt;...&lt;/b&gt;</b> <br/>                         <!-- <b> mencetak tebal atau bold -->
+    <strong>Menggunakan tag &lt;strong&gt;...&lt;/strong&gt;</strong> <br/>     <!-- <strong> mencetak tebal serta menekankan -->
+    <i>Menggunakan tag &lt;i&gt;...&lt;/i&gt;</i> <br/>                         <!-- <i> mencetak miring atau italic -->
+    <em>Menggunakan tag &lt;em&gt;...&lt;/em&gt;</em> <br/>                     <!-- <em> mencetak mirip serta menekankan -->
+    <u>Menggunakan tag &lt;u&gt;...&lt;/u&gt;</u> <br/>                         <!-- <u> memberi garis bawah atau underline -->
+    <strike>Menggunakan tag &lt;strike&gt;...&lt;/strike&gt;</strike> <br/>     <!-- <strike> memberikan garis lurus pada text -->
+    <br/>
+    <!-- kita juga dapat menampilkan karakter khusus dengan menggunakan nama entitas -->
+    <!-- Contoh penggunaan Karakter Khusus -->
+    &pound; Pound <br/>
+    &euro; Euro <br/>
+    &copy; Copyright <br/>
+    &reg; Registered <br/>
+    &trade; Trademark <br/>
+
+    <!-- tag <pre> digunakan ketika teks yang kita tulis di editor teks dapat ditampilkan dengan format yang sama -->
+    <!-- Contoh preformatted text -->
+    <pre>
+         ------------------------------------------------
+         No | Nama | Alamat
+         ------------------------------------------------
+         1 | PT. Bintang | Jl. Terusan Surabaya
+         2 | PT. Sinar Jaya | Jl. Tidar
+         3 | PT. Mitra | Jl. Galunggung
+         4 | PT. Harapan | Jl. Jombang
+         5 | PT. Barokah | Jl. Bondowoso
+         ------------------------------------------------
+    </pre>
+    
+    <!-- Elemen Garis Horizontal dapat dicetak menggunakan tag <hr /> -->
+    <!-- Contoh dari Elemen garis horizontal -->
+    Membuat garis horizontal <hr />
+    <p>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+    <br />
+    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    <br />
+    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    <hr />
+
+    <!-- Contoh penggunaan list -->
+    Ordered List                                <!-- Ordered List akan mengurutkan list menjadi 1, 2 dan seterusnya -->
+    <ol>                                        
+        <li>Satu</li>
+        <li>Dua</li>
+    </ol>
+
+    <hr />
+
+    Unordered List                              <!-- Unordered List akan mengurutkan list dengan dot shingga tidak ada urutan -->
+    <ul>
+        <li>Satu</li>
+        <li>Dua</li>
+    </ul>
+
+    <hr />
+
+    Definition List                             <!-- Definition List akan mencetak <dt> dan <dd> -->
+        <dt>Satu</dt>                           <!-- <dt> merupakan data title dan merupakan judul data -->
+            <dd>Satu Satu</dd>                  <!-- <dd> merupakan data description dan merupakan penjelasan dari konten data-->
+        <dt>Dua</dt>
+            <dd>Dua Dua</dd>
+    </dl>
+
+    <!-- Contoh elemen Pewarnaan -->
+    <!-- memberi warna background #78D1D1 di body -->
+    <body bgcolor="#78D1D1">
+
+        <h3 align="center">Heading 3</h3>
+
+        <!-- memberi warna pada text -->
+        <font color="red">Font berwarna merah</font> <br />    
+
+        <font color="#FF0000">
+        Font berwarna merah (menggunakan nilai heksa)</font>
+    <br/>
+    
+    <!-- Elemen gambar untuk bekerja dengan gambar untuk disisipkan pada html -->
+    <p>
+    <!-- mencari gambar dengan menggunakan path relative -->
+    <img src = "artinya.jpeg"
+        height = "200"                     
+        width = "200"/>
+    <!-- height dan width digunakan untuk mengatur panjang dan lebar gambar dalam satuan pixel-->                   
+    Artinya apa bang Messi?
+    <hr/>
+
+    <p>
+    <!-- mencari gambar menggunakan path absolute -->
+    <img src = "C:\Users\LENOVO\Documents\Sekul\for now\SekulCode\img\ente.jpeg"
+        height = "200"
+        width = "200" 
+        align="right" />
+    Ente goalkeeper yang paling baik di dunia 
+    
+</body>
+
+</html>
