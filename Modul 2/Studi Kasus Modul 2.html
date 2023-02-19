@@ -4,6 +4,10 @@
 <head>
     <title>Studi Kasus</title>
     <style>
+        /* menggunakan stylee dan class agar lebih mudah memberi "style" pada baris dan data */
+        /* class akan dipanggil ketika baris diberikan style sesuai isi class */
+        /* border-top akan memberikan border cell di bagian top/atas, #000 merupakan warna hitam */
+        /* solid berarti bahwa nanti border cell akan berupa garis, di sini border diberikan garis hitam */
         table{
             border-top: #000 solid;
             border-bottom: #000 solid;
@@ -21,11 +25,16 @@
     </style>
 </head>
 
+<!-- bgcolor memberikan warna pada background html -->
 <body bgcolor="#F0E5A2">
     <h2 align="center">5 Star Liyue Characters</h2>
+    <!-- cellspacing merupakan jarak antara masing masing cell -->
+    <!-- cellpadding merupakan jarak tulisan dari border cell -->
     <table align="center" cellspacing="0" cellpadding="5" border="0">
         <tr>
             <!-- Mengatur lebar kolom -->
+            <!-- Menggunakan class yang sudah kita buat di atas -->
+            <!-- width mengatur lebar dari cell -->
             <th width="50" align="center" class="bot">No</th>
             <th width="200" align="center" class="leftb">Character Name</th>
             <th width="60" align="center" class="leftb">Pyro</th>
@@ -42,6 +51,7 @@
 
         <tr>
             <!-- Baris data pertama -->
+            <!-- &#10003; digunakan untuk memprint karakter khusus symbol “✓” -->
             <td align="center">1</td>
             <td class="left">Ganyu</td>
             <td align="center" class="left"></td>
