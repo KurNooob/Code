@@ -5,15 +5,18 @@
     <title>Koko da</title>
 </head>
 
+<!-- bgcolor untuk mengganti warna background -->
 <body bgcolor="#73beb0">
     <h3 align="center">Xiao</h3> 
     <p align="center">
+        <!-- img src untuk memberi gambar pada html, width dan length mengubah ukuran gambar -->
         <img src = "XiaoLink2cov.png"
         width = "640"
         length = "360"/>
         <br/>
     </p>
     <h4>Menu</h4>
+    <!-- menggunakan unordered list untuk membuat menu, href="#x" akan membawa kita ke link internal tersebut -->
     <ul>
         <li><a href="#overview">Overview</a></li>
         <li><a href="#kit">Talents</a></li>
@@ -22,6 +25,7 @@
 
     <br/> <br/> <br/>
 
+    <!-- id="overview" untuk memberi id, dimana user akan diarahkan ke id ini ketika href="#overview" diklik -->
     <h3 id="overview">Overview</h3>
     <p>
         <img src = "XiaoCard.png"
@@ -45,6 +49,7 @@
 
     <h3 id="kit">Talents and Passives</h3>
     <h4>Normal Attack: Whirlwind Thrust</h4>
+    <!-- menggunakan definition list agak format list lebih enak dilihat -->
     <dl>
         <dt><strong>Normal Attack</strong></dt>                         
             <dd>Performs up to 6 consecutive spear strikes.
@@ -101,6 +106,9 @@
     Not stackable with Passive Talents that provide the exact same effects.<br>
 
     <h3 id="equips">Artifacts</h3>
+    <!-- cellspacing merupakan jarak antara masing masing cell -->
+    <!-- cellpadding merupakan jarak tulisan dari border cell -->
+    <!-- border=1 memberi border ketebalan 1 -->
     <table border=1 align="center" cellspacing=0 cellpadding=10>
         <!-- Header -->
         <tr>
@@ -131,6 +139,7 @@
         </tr>
 
         <!-- Baris data kedua -->
+        <!-- rowspan="x" berfungsi agar cell tersebut memanjang sebanyak x row -->
         <tr>
             <td>Shimenawa's Reminiscence</td>
             <td>2 piece bonus : Atk +18%<br>
@@ -183,6 +192,7 @@
 
     </table>
     <p>
+        <!-- href="mailto:email" akan menujukan user untuk mengirimkan mail kepada email tersebut ketika diklik -->
         If you still have anymore questions regarding Xiao, feel free to contact us through 
         <a href="mailto:fakeemail@gmail.com">this link</a> 
         ^-^ <br>
@@ -191,6 +201,8 @@
         which you can visit by clicking the image<br>
         <br>
 
+        <!-- Dengan menggunakan href dan img src, kita dapat menempalkan link pada gambar -->
+        <!-- title berfungsi memberikan judul pada link/gambar ketika mouse di-hover di atas link/gambar -->
         <a href = "https://www.youtube.com/channel/UCgo5pn2U8qbl_WYXU8Q6f0w" title="Zy0x in a Maid Outfit">
             <img src = "MaidZy0x.png"
             width = "240"
@@ -199,8 +211,12 @@
     </p>
 
     <h3>Tell us what you want more of</h3>
+    <!-- action="" akan mendefinisikan URL dari file yang akan memproses input control ketika form dikirim -->
+    <!-- method="" menspesifikasi bagaimana data form akan dikirimkan -->
     <form action="" method="post">
+    <!-- table border="0" membuat tabel terlihat seperti tidak memiliki border -->
     <table border="0">
+        <!-- input type="text" merupakan bentuk form yang perlu diisi dengan bentuk text -->
         <tr>
             <td>Name</td>
             <td><input type="text" /></td>
@@ -211,6 +227,7 @@
             <td><input type="text" /></td>
         </tr>
 
+        <!-- input typr="radio" merupakan pilihan bulatan yang bisa diselect -->
         <tr>
             <td>How often do you play?</td>
             <td>
@@ -221,6 +238,7 @@
             </td>
         </tr>
 
+        <!-- select merupakan form pemilihan option, option merupakan pilihan yang dapat dipilih saat mengisi form -->
         <tr>
             <td>Gender</td>
             <td>
@@ -233,6 +251,7 @@
             </td>
         </tr>
 
+        <!-- input type="submit" berarti mengumpulkan suatu data, value merupakan nama dari tombol -->
         <tr>
             <td>
                 <input type="submit" value="Ok" />
@@ -245,6 +264,7 @@
     </form>
 
     <br>
+    <!-- href="link1.html" akan merujuk user ke link1.html ketika diklik -->
     To return to the first page, click 
     <a align="center" href="link1.html" title="Unlament">here</a>
     
