@@ -1,21 +1,21 @@
-.circle {
-    background-color: aqua;
-    width: 200px;
-    height: 200px;
-    border-radius: 100%;
-    border: 2px solid #5d838a;
-    display: table-cell;
-    text-align: center;
-    vertical-align: middle;
+.circle {                                   /* Nama Class */
+    background-color: aqua;               /* background-color menentukan warna background */
+    width: 200px;                           /* width menentukan lebar */
+    height: 200px;                          /* height menentukan tinggi */
+    border-radius: 100%;                    /* border-radius: 100% untuk membentuk lingkaran */
+    border: 2px solid #5d838a;            /* border menentukan tebal dari border, solid agar garis, #5d838a menentukan warna border */
+    display: table-cell;                    /* display: table-cell membuat display menjadi seperti cell table */
+    text-align: center;                     /* mengatur posisi text ke center di garis horizontal pada border */
+    vertical-align: middle;                 /* mengatur posisi agar berada pada tengah border pada garis vertikal */
 }
 
 .topleftbotright {
     width: 200px;
     height: 50px;
     border: 2px solid #D12323;
-    border-top-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-    padding: 10px;
+    border-top-left-radius: 15px;           /* mengatur radius border bagian atas kiri */
+    border-bottom-right-radius: 15px;       /* mengatur radius border bagian bawah kanan */
+    padding: 10px;                          /* padding mengatur ruang kosong antara konten */
 }
 
 .shadowbox {
@@ -23,6 +23,6 @@
     width: 200px;
     height: 50px;
     border: 1px solid #FFC300;
-    box-shadow: 10px 10px #DAF7A6;
+    box-shadow: 10px 10px #DAF7A6;        /* mengatur shadow pada box */
     padding: 10px;
 }
