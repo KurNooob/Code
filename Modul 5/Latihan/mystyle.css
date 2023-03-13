@@ -1,7 +1,7 @@
 #wrapper {
     margin: auto;
-    width: 750px;
-    border: 1px solid red;
+    width: 750px;                           /* width mengatur lebar */
+    border: 1px solid red;                /* border mengatur tebal border, solid bersifat garis padat, red berupa warna */
 }
 
 #header {
@@ -10,16 +10,16 @@
 }
 
 #inner {
-    float: left;
+    float: left;                            /* float: left membuat melayang pada kiri */
     margin: 5px 0;
     border: 1px solid black;
 }
 
 #sidebar {
     float: left;
-    margin-right: 20px;
+    margin-right: 20px;                     /* mengatur margin bagian kanan */
     width: 180px;
-    height: 330px;
+    height: 330px;                          /* mengatur tinggi */
     border: 1px solid red;
 }
 
@@ -31,7 +31,7 @@
 }
 
 #footer {
-    clear: both;
+    clear: both;                        
     height: 50px;
     border: 1px solid blue;
 }
