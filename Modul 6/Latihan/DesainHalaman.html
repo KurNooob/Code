@@ -6,14 +6,14 @@
 
     <style>
         #wrapper {
-            margin: auto;
-            width: 100%;
+            margin: auto;               /* menentukan margin sebagai auto */
+            width: 100%;                /* width menentukan lebar */
         }
 
         #header {
-            height: 150px;
-            padding: 20px;
-            border: 2px solid red;
+            height: 150px;              /* height menentukan tinggi */
+            padding: 20px;              /* memberi padding atau jarak */
+            border: 2px solid red;    /* border menentukan tebal border, solid berupa garis, red berupa warna border */
         }
 
         #nav {
@@ -24,7 +24,7 @@
         }
 
         .box {
-            float: left;
+            float: left;                /* membuat style melayang pada bagian kiri */
             width: 22%;
             margin: 0 2% 0 0;
             height: 120px;
@@ -39,6 +39,7 @@
         }
 
         /* Responsif tablet */
+        /* Hanya akan diaplikasikan apabila tidak melebihi 768px */
         @media only screen and (max-width: 768px) {
             #nav {
                 height: 360px;
@@ -52,6 +53,7 @@
         }
 
         /* Responsif Smartphone */
+        /* Hanya akan diaplikasikan apabila tidak melebihi 375px */
         @media only screen and (max-width: 375px) {
             #nav {
                 height: 640px;
@@ -68,6 +70,7 @@
 
 <body>
 
+    <!-- memberikan style pada div class -->
     <div id="wrapper">
 
         <div id="header">

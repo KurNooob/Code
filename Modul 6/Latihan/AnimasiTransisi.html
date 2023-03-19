@@ -7,16 +7,18 @@
     <style>
         /* Kondisi box awal */
         .box {
-            width: 40%;
-            height: 100px;
-            background: orange;
-            border: 2px solid #212121;
+            width: 40%;                                 /* width menentukan lebar */
+            height: 100px;                              /* height menentukan tinggi */
+            background: orange;                       /* background menentukan warna background */
+            border: 2px solid #212121;                /* border menentukan tebal border, solid berarti garis, # berupa warna */
 
             /* Animasi lebar box */
-            -webkit-transition: width 1s ease-in-out;
-            -o-transition: width 1s ease-in-out;
-            -moz-transition: width 1s ease-in-out;
+            /* width 1s ease-in-out membuat lebar memanjang dalam 1 second */
+            -webkit-transition: width 1s ease-in-out;   /* menentukan animasi transisi untuk Chrome, Opera 12, Safari 5 */
+            -o-transition: width 1s ease-in-out;        /* menentukan animasi transisi untuk Opera 11 */
+            -moz-transition: width 1s ease-in-out;      /* menentukan animasi transisi untuk Firefox 4 */
             transition: width 1s ease-in-out;
+            /* menentukan animasi transisi untuk Edge 12, Firefox 16, Safari 9, Chrome 26, IE 10, Opera 12 */
         }
 
         /* Jika landscape, perlebar 100% */
@@ -31,6 +33,7 @@
 <body>
     <h3>Transisi CSS3</h3>
 
+    <!-- Mengaplikasikan style box pada class div -->
     <div class="box"></div>
 
     <p>
