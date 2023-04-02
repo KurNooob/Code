@@ -20,43 +20,43 @@
 
     <style>
     body {
-        font-family: 'gg sans 2', sans-serif;
-        background: url(background\ dc.png) no-repeat center center fixed;
-        background-size: cover;
+        font-family: 'gg sans 2', sans-serif;       /* Menggunakan font menjadi gg sans 2, apabila tidak ada, sans-serif akan digunakan */
+        background: url(background\ dc.png) no-repeat center center fixed;  /* menjadikan png sebagai background dan tidak mengulang, dialokasikan pada center */
+        background-size: cover;                     /* Menjadikan background sebagai cover */
     }
 
     h3 {
-        color: #F2F3F5;
+        color: #F2F3F5;                           /* Membuat warna menjadi #F2F3F5 */
     }
 
     .col-md-5 {
-        background-color: #313338;
-		padding: 22px;
-        border-top-left-radius: 10px;
-        border-bottom-left-radius: 10px;
+        background-color: #313338;                /* Mengatur warna background */
+		padding: 22px;                              /* Mengatur padding */
+        border-top-left-radius: 10px;               /* Mengatur border atas kiri */
+        border-bottom-left-radius: 10px;            /* Mengatur border bawah kiri */
 
     }
 
     .col-md-3 {
-        background-color: #313338;
-		padding: 46.6px;
-        border-top-right-radius: 10px;
-        border-bottom-right-radius: 10px;
-        color: #F2F3F5;
+        background-color: #313338;                /* Mengatur warna background */
+		padding: 46.6px;                            /* Mengatur padding */
+        border-top-right-radius: 10px;              /* Mengatur border atas kanan */
+        border-bottom-right-radius: 10px;           /* Mengatur border bawah kanan */
+        color: #F2F3F5;                           /* Membuat warna menjadi #F2F3F5 */
     }
     
     .bg-custom {
-        background-color: #202225;
+        background-color: #202225;                /* Mengatur warna background */
     }
 
     .form-control {
-        color: #fff;
-        border-color: #1E1F22;
+        color: #fff;                              /* Mengatur warna */
+        border-color: #1E1F22;                    /* Mengatur warna border */
     }
 
     label {
-        color: #b5bac1;
-        font-size: 12px;
+        color: #b5bac1;                           /* Mengatur warna */
+        font-size: 12px;                            /* Mengatur ukuran font */
     }
 
     .contents-3NembX {
@@ -68,8 +68,8 @@
     }
 
     .vertical-center {
-        top: 50%;
-        transform: translateY(50%);
+        top: 50%;                       /* top menjadi 50% */
+        transform: translateY(50%);     /* Mengatur item menjadi pada lokasi 50% di garis Y */
     }
 
 	.btn-primary {
@@ -80,22 +80,24 @@
 
 <body>
 <div>
-    <div class="container p-5 vertical-center">
+    <div class="container p-5 vertical-center">     <!-- Mengatur container -->
         <div class="row">
-		<div class="col-md-2 offset-2"></div>
-        <div class="col-md-5 mx-center">
+		<div class="col-md-2 offset-2"></div>       <!-- Membuat col sebesar 2 dan offset 2 -->
+        <div class="col-md-5 mx-center">            <!-- Membuat col sebesar 5 dan membuatnya ke center -->
             <div class="card mx-auto">
                 <div class="card-body p-5">
                     <h3 class="text-center mb-4"><strong>Welcome back!</strong></h3>
                     <p style="color: #B5BAC1; text-align: center;">We're so excited to see you again!</p>
                     <br>
-                    <form>
+                    <form>                          <!-- Membuat tempat input/form -->
                     <div class="form-floating mb-3">
+                        <!-- Membuat tempat input -->
                         <label for="email" style="font-size: 12px;">EMAIL OR PHONE NUMBER <span class="required">*</span></label>
                         <input type="email" class="form-control bg-custom " id="email">
                     </div>
                     <br>
                     <div class="form-floating mb-3">
+                        <!-- Membuat tempat input -->
                         <label for="password" class="text-white" style="font-size: 12px;">PASSWORD <span class="required">*</span></label>
                         <input type="password" class="form-control bg-custom " id="password">
                         <div class="contents-3NembX" style="font-size: 12px;">Forgot your password?</div>
@@ -111,6 +113,7 @@
 		<div class="col-md-3">
 			<div class="card mx-auto">
                 <div class="card-body p-5" align="center">
+                    <!-- Memasukan gambar png -->
                     <img src="qrcode2.png"
                     height="190px"
                     width="190px">
