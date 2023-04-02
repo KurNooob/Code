@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Discord Login Screen</title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <link href="https://fonts.cdnfonts.com/css/gg-sans-2" rel="stylesheet">          
+
+    <style>
+    @import url('https://fonts.cdnfonts.com/css/gg-sans-2');
+    body {
+        font-family: 'gg sans 2', sans-serif;
+        background: url(background\ dc.png) no-repeat center center fixed;
+        background-size: cover;
+    }
+
+    h3 {
+        color: #F2F3F5;
+    }
+
+    .col-md-5 {
+        background-color: #313338;
+		padding: 22px;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+
+    }
+
+    .col-md-3 {
+        background-color: #313338;
+		padding: 46.6px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        color: #F2F3F5;
+    }
+    
+    .bg-custom {
+        background-color: #202225;
+    }
+
+    .form-control {
+        color: #fff;
+        border-color: #1E1F22;
+    }
+
+    label {
+        color: #b5bac1;
+        font-size: 12px;
+    }
+
+    .contents-3NembX {
+        color: #00A8FC;
+    }
+
+    span.required {
+        color: red;
+    }
+
+    .vertical-center {
+        top: 50%;
+        transform: translateY(50%);
+    }
+
+	.btn-primary {
+		background-color: #5865F2;
+	}
+    </style>
+</head>
+
+<body>
+<div>
+    <div class="container p-5 vertical-center">
+        <div class="row">
+		<div class="col-md-2 offset-2"></div>
+        <div class="col-md-5 mx-center">
+            <div class="card mx-auto">
+                <div class="card-body p-5">
+                    <h3 class="text-center mb-4"><strong>Welcome back!</strong></h3>
+                    <p style="color: #B5BAC1; text-align: center;">We're so excited to see you again!</p>
+                    <br>
+                    <form>
+                    <div class="form-floating mb-3">
+                        <label for="email" style="font-size: 12px;">EMAIL OR PHONE NUMBER <span class="required">*</span></label>
+                        <input type="email" class="form-control bg-custom " id="email">
+                    </div>
+                    <br>
+                    <div class="form-floating mb-3">
+                        <label for="password" class="text-white" style="font-size: 12px;">PASSWORD <span class="required">*</span></label>
+                        <input type="password" class="form-control bg-custom " id="password">
+                        <div class="contents-3NembX" style="font-size: 12px;">Forgot your password?</div>
+                    </div>
+                    <br>
+                    <button type="submit" class="btn btn-primary btn-block mb-3">Log In</button>
+					<p style="color: #B5BAC1; font-size: 12px;">Need an account? <span style="color: #00A8FC">Register</span></p>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+		<div class="col-md-3">
+			<div class="card mx-auto">
+                <div class="card-body p-5" align="center">
+                    <img src="qrcode2.png"
+                    height="190px"
+                    width="190px">
+                    <br>
+                    <br>
+                    <h2 style="font-size: 20px; margin: 0px 0px 8px"><b>Log in with QR Code</b></h2>
+                    <p style="color: #B5BAC1">Scan this with the <strong>Discord Mobile App</strong> to log in instantly.</p>
+                </div>
+            </div>
+		</div>
+    </div>
+</div>
+</body>
+
+</html>
