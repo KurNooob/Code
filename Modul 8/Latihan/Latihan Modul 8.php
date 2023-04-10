@@ -27,8 +27,8 @@
         echo $bil;
     ?>
 
-    <!-- var_dump digunakan untuk mencetak nilai variabel tanpa Tipe data -->
-    <!-- print_r digunakan untuk mencetak nilai variabel beserta Tipe data -->
+    <!-- var_dump() digunakan untuk mencetak nilai variabel tanpa Tipe data -->
+    <!-- print_r() digunakan untuk mencetak nilai variabel beserta Tipe data -->
     <!-- echo untuk mencetak output saja -->
     <?php
         // Deklarasi dan inisialisasi vaariabel bil
