@@ -79,7 +79,7 @@
         // Output: integer
     ?>
 
-    <!-- Pernyataan Seleksi/if -->
+    <!-- Pernyataan if -->
     <?php
         $a = 10;
         $b = 5;
