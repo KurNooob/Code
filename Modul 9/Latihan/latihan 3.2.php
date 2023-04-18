@@ -7,6 +7,7 @@
 
 <body>
 
+    <!-- Form Radio Button HTML -->
     <form action="<?php $_SERVER['PHP_SELF'];?>" method="post">
         Jenis Kelamin
         <input type="radio" name="sex" value="Pria" checked
