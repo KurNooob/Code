@@ -6,6 +6,7 @@
     </head>
 
 <body>
+    <!-- Form HTML -->
     <form action="<?php $_SERVER['PHP_SELF'];?>" method="post">
         Nama
     <input type="text" name="nama"
