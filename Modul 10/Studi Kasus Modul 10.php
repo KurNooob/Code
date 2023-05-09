@@ -5,7 +5,7 @@
         unset($_SESSION);
         session_destroy();
         echo "<p align=center> Anda telah berhasil Log Out.";
-        echo "<p align=center> Silakan klik <a href='testingphp.php'>disini</a> untuk login lagi.</p>";
+        echo "<p align=center> Silakan klik <a href='Studi Kasus Modul 10.php'>disini</a> untuk login lagi.</p>";
         exit;
     }
     // jika form sudah diisi
@@ -28,7 +28,7 @@
             }
         } else { // jika username dan password tidak sesuai dengan yang ditentukan
             echo "<p align=center> <size=7px> Login gagal. Mohon periksa Username dan/atau Password.</size=7px>";
-            echo "<p align=center> <size=7px> Silakan klik <a href='testingphp.php'>disini</a> untuk login lagi.</size=7px></p>";
+            echo "<p align=center> <size=7px> Silakan klik <a href='Studi Kasus Modul 10.php'>disini</a> untuk login lagi.</size=7px></p>";
         }
     } else { ?>
         <html lang="en">
