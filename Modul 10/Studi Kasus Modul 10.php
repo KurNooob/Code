@@ -1,18 +1,18 @@
 <?php
     session_start(); // memulai session
-    // jika tombol logout diklik
+    // apabila log out ditekan
     if (isset($_POST['logout'])) {
         unset($_SESSION);
-        session_destroy();
+        session_destroy();          // menghancurkan sesi login
         echo "<p align=center> Anda telah berhasil Log Out.";
         echo "<p align=center> Silakan klik <a href='Studi Kasus Modul 10.php'>disini</a> untuk login lagi.</p>";
         exit;
     }
-    // jika form sudah diisi
+    // setelah form diisi
     if (isset($_POST['username']) || isset($_POST['password'])) { 
-        // jika username dan password sesuai dengan yang ditentukan
+        // apabila username dan password sesuai
         if ($_POST['username'] === "namayuser" && $_POST['password'] === "pasuworudo") {
-            // masuk ke halaman login page
+            // masuk ke halaman login
             if (!isset($_SESSION['login'])) { ?>
                 <html lang="en">
                 <head>
@@ -26,7 +26,7 @@
                 </body>
                 </html> <?php
             }
-        } else { // jika username dan password tidak sesuai dengan yang ditentukan
+        } else { // jika username dan password tidak sesuai
             echo "<p align=center> <size=7px> Login gagal. Mohon periksa Username dan/atau Password.</size=7px>";
             echo "<p align=center> <size=7px> Silakan klik <a href='Studi Kasus Modul 10.php'>disini</a> untuk login lagi.</size=7px></p>";
         }
