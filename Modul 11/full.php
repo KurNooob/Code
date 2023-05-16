@@ -38,20 +38,20 @@
             <th>Menu</th>
         </tr>
         <?php
-        include "koneksi.php";
+        include ("koneksi.php");
         $no = 1;
         $data = mysqli_query($koneksi, "SELECT * from mahasiswa");
         while($d = mysqli_fetch_array($data)) {
             ?>
             <tr>
                 <td><?php echo $no++; ?></td>
-                <td><?php echo $d['nim']; ?></td>
-                <td><?php echo $d['nama']; ?></td>
-                <td><?php echo $d['alamat']; ?></td>
+                <td><?php echo $d['NIM']; ?></td>
+                <td><?php echo $d['Nama']; ?></td>
+                <td><?php echo $d['Alamat']; ?></td>
                 <td>
-                    <a href="lihat.php?nim=<?php echo $d['nim']; ?>">Lihat</a>
-                    <a href="edit.php?nim=<?php echo $d['nim']; ?>">Edit</a>
-                    <a href="hapus.php?nim=<?php echo $d['nim']; ?>">Hapus</a>
+                    <a href="lihat.php?nim=<?php echo $d['NIM']; ?>">Lihat</a>
+                    <a href="edit.php?nim=<?php echo $d['NIM']; ?>">Edit</a>
+                    <a href="hapus.php?nim=<?php echo $d['NIM']; ?>">Hapus</a>
                 </td>
             </tr>
             <?php

@@ -1,4 +1,4 @@
 <?php
-    $koneksi = mysqli_connect('localhost', 'root', '', 'db_prakweb') 
+    $koneksi = mysqli_connect('localhost', 'root', '', 'mahasiswa') 
     or die ('koneksi gagal');
 ?>
