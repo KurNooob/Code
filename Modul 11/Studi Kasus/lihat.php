@@ -14,7 +14,7 @@
     <?php
     include "koneksi.php";
     $nim = $_GET['NIM'];
-    $data = mysqli_query($koneksi, "SELECT * from data WHERE nim='$nim'") or die(mysql_error());
+    $data = mysqli_query($koneksi, "SELECT * from data WHERE NIM='$nim'") or die(mysql_error());
     $no = 1;
     while($d = mysqli_fetch_array($data)){
     ?>
