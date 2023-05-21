@@ -1,10 +1,19 @@
 <?php
     include "koneksi.php";
-    $nim = $_POST['NIM'];
-    $nama = $_POST['Nama'];
-    $alamat = $_POST['Alamat'];
 
-    mysqli_query($koneksi, "UPDATE mahasiswa SET Nama='$nama', Alamat='$alamat' WHERE NIM='$nim'");
-
-    header("location:full.php?pesan=update");
+        $nama = $_POST['Nama'];
+        $nim = $_POST['NIM'];
+        $alamat = $_POST['Alamat'];
+    
+        $query = mysqli_query($koneksi, "INSERT INTO mahasiswa (NIM, Nama, Alamat) VALUES ('$nim', '$nama', '$alamat')");
+    
+        if ($query) {
+            $message = (object) [
+                'type' => 'success',
+                'text' => 'Data berhasil ditambahkan'
+            ];
+            header("location:full.php?pesan=update");
+        } else {
+            echo "Data gagal ditambahkan";
+        }
 ?>
