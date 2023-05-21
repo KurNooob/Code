@@ -51,7 +51,7 @@
             <div class="card mx-auto">
                 <div class="card-body p-5">
                     <h3 class="text-center mb-4"><strong>Data Mahasiswa</strong></h3>
-                    <p style="color: #B5BAC1; text-align: center;">Masukkan NIM, Naman dan Alamat lalu klik "Tambahkan"</p>
+                    <p style="color: #B5BAC1; text-align: center;">Masukkan NIM, Nama dan Alamat lalu klik "Tambahkan"</p>
                     <br>
                     <form action="<?php $_SERVER['PHP_SELF']; ?>" method="post">
                     <div class="form-floating mb-3">
