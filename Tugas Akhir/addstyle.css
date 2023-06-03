@@ -47,3 +47,7 @@ th {
     background-color: #fb6376;
     border: none;
 }
+
+.header-button:hover {
+    background-color: #FA455A;
+}
