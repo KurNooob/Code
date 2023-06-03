@@ -1,0 +1,49 @@
+body {
+    color: white;
+    margin: 40;
+    padding: 40;
+    height: 100vh;
+    background: linear-gradient(#FF99CC 15%, #2B2C28 15%);
+    background-size: 100% 100%;
+    font-family: sans-serif;
+}
+
+.form-control {
+    color: #fff;                              /* Mengatur warna */
+    border-color: #1E1F22;                    /* Mengatur warna border */
+}
+
+.bg-custom {
+    background-color: #202225;                /* Mengatur warna background */
+}
+
+th {
+    padding: 15px;
+    text-align: center;
+    background-color: #f2f2f2;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-text {
+    margin-right: 10px;
+    
+}
+
+.add-button {
+    background-color: #19c26d;                /* Mengatur warna background */
+    border: none;
+}
+
+.add-button:hover {
+    background-color: #90EF90;
+}
+
+.header-button{
+    background-color: #fb6376;
+    border: none;
+}

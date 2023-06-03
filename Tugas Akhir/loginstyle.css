@@ -1,0 +1,42 @@
+.error-message {
+    color: red;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-box {
+    width: 400px;
+    height: 390px;
+    background-color: #313338;
+    border: 0;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+body {
+    background-color: #313338;
+    color: white;
+    background-image: url('bgimge.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.form-control {
+    color: #fff;                              /* Mengatur warna */
+    border-color: #1E1F22;                    /* Mengatur warna border */
+}
+
+.bg-custom {
+    background-color: #1e1f22;                /* Mengatur warna background */
+}
+
+.btn-primary {
+    background-color: #5865F2;
+}
